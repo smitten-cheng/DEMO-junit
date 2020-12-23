@@ -3,6 +3,7 @@ package com.unit;
 public class Calculator {
     public static double result=0,count=0;
     public  static double count(double x) throws InterruptedException {
+        //second
         count+=x;
         Thread.sleep(2000);
         return count;
